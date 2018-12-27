@@ -1,4 +1,7 @@
-﻿#[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+﻿# GUI tool to keep an eye on multiple network connections' up status with ICMP
+# By Greg Rowe
+
+#[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 
 Function Ping-Host
