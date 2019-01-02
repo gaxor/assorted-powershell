@@ -2,8 +2,6 @@
 # Script to return the DNN version for specified computer(s)
 # Written by Greg Rowe (May 2017)
 
-# to-do: connect sites with asuite billing
-
 Param
 (
     [String[]]$ComputerName, # Queries all servers in domain if left empty
